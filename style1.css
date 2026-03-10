@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-  max-width: 1200rem;
+  max-width: 1200vh;
   margin: auto;          /* center horizontally */
   padding: 20px;         /* charo taraf padding */
   height: auto;          /* height content ke hisab se */
@@ -133,6 +133,7 @@ form button:active {
   transform: translateY(2px);
 
 }
+
 
 
 
