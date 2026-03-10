@@ -11,6 +11,7 @@ body{
   min-height: 100vh;
   padding: 20px;        
   background: hsla(31, 72%, 46%, 0.267);
+  background-attachment:fixed;
 }
 
 .container{
@@ -20,6 +21,7 @@ body{
   height: auto;          /* height content ke hisab se */
   background: #fff;
   border-radius: 10px;
+  background-attachment:fixed;
 }
 
 form {
@@ -133,6 +135,7 @@ form button:active {
   transform: translateY(2px);
 
 }
+
 
 
 
