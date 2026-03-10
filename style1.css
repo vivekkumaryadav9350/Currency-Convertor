@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;          /* center horizontally */
   padding: 20px;         /* charo taraf padding */
   height: auto;          /* height content ke hisab se */
@@ -122,7 +122,7 @@ form button:hover {
 }
 
 @media (max-width: 600px){
-  .converter-container{
+  .container{
     padding: 15px;
   }
 }
@@ -133,6 +133,7 @@ form button:active {
   transform: translateY(2px);
 
 }
+
 
 
 
