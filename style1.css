@@ -124,7 +124,13 @@ form button:hover {
   transform: translateY(-2px);
 }
 
+@media (max-width: 600px){
+  .converter-container{
+    padding: 15px;
+  }
+}
 form button:active {
   box-shadow: #3c4fe0 0 3px 7px inset;
   transform: translateY(2px);
+
 }
