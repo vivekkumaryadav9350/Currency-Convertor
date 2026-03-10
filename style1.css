@@ -3,26 +3,23 @@
   padding: 0;
 }
 
-body {
+
+body{
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  padding-top:80px;
+  align-items: center;  
   min-height: 100vh;
-  background-color: #f4e4ba;
-  background-attachment: fixed;
-  
+  padding: 20px;        
+  background: hsla(31, 72%, 46%, 0.267);
 }
 
-.container {
-  position: fixed;
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 1rem;
-  min-height: 200px;
-   width: 340px;
-  border: 2px solid #49eccea0;
-  
+.container{
+  max-width: 400px;
+  margin: auto;          /* center horizontally */
+  padding: 20px;         /* charo taraf padding */
+  height: auto;          /* height content ke hisab se */
+  background: #fff;
+  border-radius: 10px;
 }
 
 form {
@@ -129,8 +126,11 @@ form button:hover {
     padding: 15px;
   }
 }
+
+
 form button:active {
   box-shadow: #3c4fe0 0 3px 7px inset;
   transform: translateY(2px);
 
 }
+
